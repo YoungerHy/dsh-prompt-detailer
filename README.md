@@ -1,5 +1,10 @@
 # 一句话细化 · dsh-prompt-detailer
 
+[![npm version](https://img.shields.io/npm/v/dsh-prompt-detailer.svg)](https://www.npmjs.com/package/dsh-prompt-detailer)
+[![npm downloads](https://img.shields.io/npm/dm/dsh-prompt-detailer.svg)](https://www.npmjs.com/package/dsh-prompt-detailer)
+[![license](https://img.shields.io/npm/l/dsh-prompt-detailer.svg)](LICENSE)
+[![DSH](https://img.shields.io/badge/DSH-0.2.x-4f7cff)](https://github.com/deepseek-ai/deepseek-harness)
+
 **在 DSH 输入框里点一下，把「帮我做个 XX」这种粗需求，先交给一个便宜的 AI 写成详细、可执行的提示词，再交给主 Agent 干活。**
 
 主模型只负责执行，不再被含糊需求来回消耗 token。
