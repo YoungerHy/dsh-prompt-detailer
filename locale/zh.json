@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "一句话细化",
+    "description": "用任意 OpenAI 兼容模型把粗糙需求扩写成详细提示词，一键填入输入框或直接发送给 Agent。支持火山方舟、OpenAI、Ollama 与本地网关。"
+  }
+}

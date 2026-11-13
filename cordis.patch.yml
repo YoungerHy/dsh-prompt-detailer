@@ -1,0 +1,7 @@
+# Bundle layer for dsh-prompt-detailer.
+# Inserts one Host plugin row. The Web client half is picked up from the
+# package.json `dsh.client` declaration, not from this patch.
+- insert:
+    - id: prompt-detailer
+      name: dsh-prompt-detailer
+      config: {}

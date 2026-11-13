@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Prompt Detailer",
+    "description": "Expand a rough request into a detailed prompt with any OpenAI-compatible model, then fill or send it to the DSH agent. Works with Volcano Ark, OpenAI, Ollama, and local gateways."
+  }
+}

@@ -1,0 +1,11 @@
+node_modules/
+.tools/
+config.json
+.env
+.env.*
+*.log
+_tmp_home/
+_*.mjs
+*.tgz
+.DS_Store
+Thumbs.db

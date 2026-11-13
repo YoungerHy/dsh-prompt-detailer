@@ -1,0 +1,61 @@
+{
+  "name": "dsh-prompt-detailer",
+  "version": "0.1.0",
+  "description": "Turn a rough request into a detailed, executable prompt with any OpenAI-compatible model, then fill or send it to the DSH agent.",
+  "type": "module",
+  "license": "MIT",
+  "author": "dsh-prompt-detailer contributors",
+  "homepage": "https://github.com/YoungerHy/dsh-prompt-detailer#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YoungerHy/dsh-prompt-detailer.git"
+  },
+  "bugs": {
+    "url": "https://github.com/YoungerHy/dsh-prompt-detailer/issues"
+  },
+  "icon": "./icon.svg",
+  "main": "./index.js",
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg",
+    "README.md",
+    "LICENSE",
+    "docs/composer.png"
+  ],
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "prompt",
+    "prompt-engineering",
+    "openai-compatible"
+  ],
+  "engines": {
+    "dsh": ">=0.2.1-rc.2 <0.3.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": [
+        "react-dom"
+      ]
+    }
+  }
+}
